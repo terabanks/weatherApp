@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather App</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Favicon*/-->
+    <link rel="icon" href="./images/favicon.png">
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./stylesheet.css">
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+    <!--Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/6d6f03676b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <img class="cloud" src="./images/cloud.svg" alt="translucent cloud with weather details">
+    <div class="cloud-container">
+        <div class="search">
+            <input class="search-field" type=" text">
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="weather-container">
+            <div class="sunrise">
+                <i class="fas fa-caret-up"></i>
+                <h4>Sunrise:</h4>
+            </div>
+            <div class="weather-details">
+                <div class="city">Norfolk</div>
+                <div class="icon-temp">
+                    <img class="icon" src="" alt="">
+                    <h1 class="temp">75°</h1>
+                </div>
+                <div class="description">Sunny</div>
+                <div class="humidity">30%</div>
+                <div class="wind-speed">2 mph</div>
+            </div>
+            <div class="sunset">
+                <i class="fas fa-caret-down"></i>
+                <h4>Sunset:</h4>
+            </div>
+        </div>
+    </div>
+    <!--Javascript-->
+    <script src="./script.js"></script>
+</body>
+
+</html>
